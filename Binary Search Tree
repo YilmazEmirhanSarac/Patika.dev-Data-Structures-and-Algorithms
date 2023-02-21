@@ -1,0 +1,22 @@
+Binary Search Tree
+[7,5,1,8,3,6,0,9,4,2]
+
+Root 3'dür
+1. 7 3'ten büyük sağa yazılıyor.
+2. 5 3'ten büyük sağdan devam ediyor. 5 7'den küçük sola yazılıyor .
+3. 1 3'ten küçük sola yazılıyor.
+4. 8 3'ten büyük sağdan devam ediyor. 8 7'den büyük sağa yazılıyor.
+5. 6 3'ten büyük sağdan devam ediyor. 6 7'den küçük soldan devam ediyor. 6 5'ten büyük sağa yazılıyor.
+6. 0 3'ten küçük soldan devam ediyor. 0 1'den küçük sola yazılıyor.
+7. 9 3'ten büyük sağdan devam ediyor. 9 7'den büyük sağdan devam ediyor. 9 8'den büyük sağa yazılıyor.
+8. 4 3'ten büyük sağdan devam ediyor. 4 7'den küçük soldan devam ediyor. 4 5'ten küçük sola yazılıyor.
+9. 2 3'ten küçük soldan devam ediyor. 2 1' den büyük sağa yazılıyor.
+
+              3
+             / \
+            /   \  
+           1     7
+          / \   / \
+         0   2 5   8
+              / \   \
+             4   6   9
